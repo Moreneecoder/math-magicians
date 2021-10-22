@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Math Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A Math Calculator App built with React Javascript Library
 
 ## Available Scripts
 
