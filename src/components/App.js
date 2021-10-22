@@ -4,8 +4,10 @@ import ButtonPanel from './ButtonPanel';
 function App() {
   return (
     <div className="App">
-      <Display />
-      <ButtonPanel />
+      <>
+        <Display result={23} />
+        <ButtonPanel />
+      </>
     </div>
   );
 }
