@@ -6,8 +6,6 @@ const Display = (props) => {
 
     <div className="Display">
       <h1>
-        Math-Magician Display Component Works Fine:
-        {' '}
         {result}
       </h1>
     </div>
