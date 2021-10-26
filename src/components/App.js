@@ -13,7 +13,7 @@ class App extends React.Component {
       operation: null,
     };
 
-    this.handleClick = (data) => {      
+    this.handleClick = (data) => {
       const calculation = Calculator(this.state, data);
       this.setState(calculation);
     };
