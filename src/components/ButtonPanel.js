@@ -20,7 +20,7 @@ const ButtonPanel = (props) => (
       {renderButton('7', props)}
       {renderButton('8', props)}
       {renderButton('9', props)}
-      {renderButton('X', props)}
+      {renderButton('*', props)}
     </div>
 
     <div>
