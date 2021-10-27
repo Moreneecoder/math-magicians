@@ -1,0 +1,16 @@
+.display {
+  background-color: white;
+  color: maroon;
+  border: 1px solid maroon;
+  padding-right: 10px;
+  font-weight: bolder;
+}
+
+.display h1 {
+  float: right;
+  font-size: 3em;
+}
+
+.clear {
+  clear: both;
+}
