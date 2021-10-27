@@ -1,0 +1,14 @@
+.display {
+  background-color: black;
+  color: white;
+  padding-right: 10px;
+}
+
+.display h1 {
+  float: right;
+  font-size: 3em;
+}
+
+.clear {
+  clear: both;
+}
