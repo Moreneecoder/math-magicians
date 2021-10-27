@@ -1,7 +1,7 @@
 .Button button {
   width: 25%;
   font-size: 3em;
-  background-color: maroon;
+  background-color: #480607;
   color: white;
   border: none;
   border: 1px solid white;
@@ -11,5 +11,5 @@
 }
 
 .Button button:hover {
-  background-color: lightgrey;
+  background-color: maroon;
 }

@@ -1,6 +1,7 @@
 .display {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: maroon;
+  border: 1px solid maroon;
   padding-right: 10px;
 }
 
