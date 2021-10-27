@@ -50,6 +50,8 @@ const Calculator = (data, buttonName) => {
     next = ((1 / 100) * next).toString();
   }
 
+  console.log({ total, next, operation });
+
   return { total, next, operation };
 };
 
