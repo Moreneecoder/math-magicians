@@ -6,8 +6,6 @@ const Display = (props) => {
 
     <div className="Display">
       <h1>
-        Math-Magician Display Component Works Fine:
-        {' '}
         {result}
       </h1>
     </div>
@@ -19,7 +17,7 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  result: 0,
+  result: '0',
 };
 
 export default Display;
