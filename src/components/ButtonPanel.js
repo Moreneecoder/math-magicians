@@ -1,43 +1,46 @@
 import Button from './Button';
 
-const renderButton = (name) => (
-  <Button name={name} />
+const renderButton = (name, params) => (
+  <Button
+    name={name}
+    onClick={() => params.handleClick(name)}
+  />
 );
 
-const ButtonPanel = () => (
+const ButtonPanel = (props) => (
   <div className="ButtonPanel">
     <div>
-      {renderButton('AC')}
-      {renderButton('+/-')}
-      {renderButton('%')}
-      {renderButton('÷')}
+      {renderButton('AC', props)}
+      {renderButton('+/-', props)}
+      {renderButton('%', props)}
+      {renderButton('÷', props)}
     </div>
 
     <div>
-      {renderButton('7')}
-      {renderButton('8')}
-      {renderButton('9')}
-      {renderButton('X')}
+      {renderButton('7', props)}
+      {renderButton('8', props)}
+      {renderButton('9', props)}
+      {renderButton('X', props)}
     </div>
 
     <div>
-      {renderButton('4')}
-      {renderButton('5')}
-      {renderButton('6')}
-      {renderButton('-')}
+      {renderButton('4', props)}
+      {renderButton('5', props)}
+      {renderButton('6', props)}
+      {renderButton('-', props)}
     </div>
 
     <div>
-      {renderButton('1')}
-      {renderButton('2')}
-      {renderButton('3')}
-      {renderButton('+')}
+      {renderButton('1', props)}
+      {renderButton('2', props)}
+      {renderButton('3', props)}
+      {renderButton('+', props)}
     </div>
 
     <div>
-      {renderButton('0')}
-      {renderButton('.')}
-      {renderButton('=')}
+      {renderButton('0', props)}
+      {renderButton('.', props)}
+      {renderButton('=', props)}
     </div>
   </div>
 );
