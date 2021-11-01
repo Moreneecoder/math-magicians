@@ -9,8 +9,8 @@ const App = () => {
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
 
-  const handleClick = (data) => {
-    const { newTotal, newNext, newOperation } = Calculator({ total, next, operation }, data);
+  const handleClick = (btnData) => {
+    const { newTotal, newNext, newOperation } = Calculator({ total, next, operation }, btnData);
 
     setTotal(newTotal);
     setNext(newNext);
