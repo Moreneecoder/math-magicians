@@ -1,16 +1,13 @@
 .display {
-  background-color: white;
-  color: maroon;
-  border: 1px solid maroon;
+  display: flex;
+  height: 100%;
+  background-color: gray;
+  justify-content: right;
+  color: white;
   padding-right: 10px;
   font-weight: bolder;
 }
 
 .display h1 {
-  float: right;
   font-size: 3em;
-}
-
-.clear {
-  clear: both;
 }

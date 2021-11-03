@@ -9,7 +9,6 @@ const Display = (props) => {
       <h1>
         {result}
       </h1>
-      <div className="clear" />
     </div>
   );
 };
