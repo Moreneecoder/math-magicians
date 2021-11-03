@@ -1,9 +1,14 @@
 .NavBar {
   display: flex;
+  padding: 15px 0;
 }
 
 .logo {
   flex: 80%;
+  color: maroon;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .navLinks {

@@ -3,7 +3,7 @@ import '../stylesheets/NavBar.css';
 
 const NavBar = () => (
   <div className="NavBar">
-    <h1 className="logo">mathMagicians</h1>
+    <Link to="/" className="logo">mathMagicians</Link>
 
     <div className="navLinks">
       <Link className="linkItem linkBorder" to="/">Home</Link>
