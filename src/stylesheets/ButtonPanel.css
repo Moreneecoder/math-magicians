@@ -1,0 +1,4 @@
+.ButtonPanel div {
+  display: flex;
+  height: 100%;
+}

@@ -5,7 +5,7 @@ const Button = (props) => {
   const { name, onClick } = props;
 
   return (
-    <div className="Button">
+    <div className={name === '0' ? 'zeroButton' : 'Button'}>
       <button type="button" onClick={onClick}>{name}</button>
     </div>
   );

@@ -1,4 +1,13 @@
-.Button button {
+.Button {
+  flex: 1;
+}
+
+.zeroButton {
+  flex: 2;
+}
+
+.Button button,
+.zeroButton button {
   width: 100%;
   font-size: 3em;
   background-color: #480607;
