@@ -10,14 +10,18 @@
 .zeroButton button {
   width: 100%;
   font-size: 3em;
-  background-color: #480607;
-  color: white;
   border: none;
   border: 1px solid white;
   padding: 10px 0;
   cursor: pointer;
 }
 
-.Button button:hover {
-  background-color: maroon;
+.defaultBg button {
+  background-color: orange;
+}
+
+.Button button:hover,
+.zeroButton button:hover {
+  background-color: darkgray;
+  color: white;
 }
