@@ -1,0 +1,26 @@
+.NavBar {
+  display: flex;
+}
+
+.logo {
+  flex: 80%;
+}
+
+.navLinks {
+  display: flex;
+  flex: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks .linkItem {
+  text-decoration: none;
+  color: maroon;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.navLinks .linkBorder {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
