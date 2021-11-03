@@ -1,5 +1,4 @@
 import Button from './Button';
-import '../stylesheets/ButtonPanel.css';
 
 const renderButton = (name, params) => (
   <Button
