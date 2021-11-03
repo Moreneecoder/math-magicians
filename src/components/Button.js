@@ -4,8 +4,12 @@ import '../stylesheets/button.css';
 const Button = (props) => {
   const { name, onClick } = props;
 
+  const getButtonClass = (btnName) => (
+    (btnName === '0') ? 'zeroButton' : 'Button'
+  );
+
   return (
-    <div className={name === '0' ? 'zeroButton' : 'Button'}>
+    <div className={getButtonClass(name)}>
       <button type="button" onClick={onClick}>{name}</button>
     </div>
   );
