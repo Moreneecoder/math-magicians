@@ -1,5 +1,6 @@
 .Button button {
-  width: 100%;
+  width: 25%;
+  float: left;
   font-size: 3em;
   background-color: #480607;
   color: white;
