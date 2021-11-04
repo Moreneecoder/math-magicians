@@ -5,3 +5,7 @@ body {
 .center-align {
   text-align: center;
 }
+
+.main-bg-color {
+  background-color: maroon;
+}
