@@ -13,7 +13,7 @@ import Home from '../components/Home'
 // })
 
 describe('Home Component', () => {
-    test('Renders correctly home component', () => {
+    test('Renders home component as intended', () => {
       const tree = renderer.create(<Home />).toJSON();
       expect(tree).toMatchSnapshot();
     });
