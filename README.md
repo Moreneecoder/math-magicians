@@ -4,9 +4,23 @@
 
 ## Built With
 * React JS Library/Framework
+* Big.js
 
 ## Live Demo
 * [Math Magicians](https://keji-math-magicians.herokuapp.com/)
+
+## Webpage View
+> Home Page
+
+![](https://user-images.githubusercontent.com/38987207/140577045-c4078bc4-537d-48a0-97aa-e72e86b763b3.png)
+
+> Calculator Page
+> 
+![](https://user-images.githubusercontent.com/38987207/140577255-9dd5ebc0-89f2-4126-8a8b-de3be0d8bdaf.png)
+
+> Quote Page
+>
+![](https://user-images.githubusercontent.com/38987207/140577446-b17ec082-8db2-45f1-a7bc-36ba0ea41e19.png)
 
 ## Getting Started
 To set this project up locally, follow the steps below:
