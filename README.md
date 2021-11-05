@@ -26,6 +26,9 @@ You should have the following tools installed on your machine:
 * If for some reason, the browser doesn't run automatically, Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 Voila! Your project is up and running...
 
+### Testing
+* To run unit and integrated tests, simply run `npm run test`
+
 ## Authors
 
 👤 **Bello Morenikeji Fuad**
